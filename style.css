@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #26332a;
+  background-color: #f2f5f1;
+}
+
+a {
+  color: #2e7d46;
+}
+
+a:hover {
+  color: #1d5730;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+#site-header {
+  background-color: #38714a;
+  color: #fff;
+  padding: 14px 0;
+}
+
+#site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#header-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#logo {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background-color: #fff;
+  flex-shrink: 0;
+}
+
+#site-title {
+  margin: 0;
+  font-size: 28px;
+}
+
+#main-menu {
+  flex-shrink: 0;
+}
+
+#main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #2a5738;
+  border-radius: 8px;
+}
+
+#main-menu li {
+  display: inline-block;
+}
+
+#main-menu a {
+  display: block;
+  padding: 9px 16px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+#main-menu a:hover {
+  background-color: #1d3f27;
+}
+
+#content {
+  padding-top: 28px;
+  padding-bottom: 12px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #dbe4d8;
+  border-radius: 10px;
+  padding: 18px 24px;
+  margin-bottom: 24px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #2a5738;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card img[usemap] {
+  max-width: none;
+}
+
+#links li {
+  margin-bottom: 10px;
+}
+
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  table-layout: fixed;
+}
+
+.schedule th,
+.schedule td {
+  border: 1px solid #c9d6c6;
+  padding: 8px 10px;
+  text-align: center;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.schedule-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.schedule th {
+  background-color: #38714a;
+  color: #fff;
+}
+
+.schedule tbody tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+.schedule tbody tr:nth-child(even) td {
+  background-color: #e9f1e7;
+}
+
+.schedule .time {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.schedule .note {
+  font-style: italic;
+  color: #5c6b5e;
+}
+
+.schedule td {
+  text-align: left;
+  vertical-align: top;
+}
+
+.schedule th,
+.schedule .time {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.schedule td.empty {
+  text-align: center;
+  vertical-align: middle;
+  color: #9aa89a;
+}
+
+.schedule th:first-child,
+.schedule td:first-child {
+  width: 48px;
+}
+
+.schedule th:nth-child(2),
+.schedule td:nth-child(2) {
+  width: 90px;
+}
+
+.schedule th:nth-child(3),
+.schedule td:nth-child(3),
+.schedule th:nth-child(4),
+.schedule td:nth-child(4),
+.schedule th:nth-child(7),
+.schedule td:nth-child(7),
+.schedule th:nth-child(8),
+.schedule td:nth-child(8) {
+  width: 14%;
+}
+
+.schedule th:nth-child(5),
+.schedule td:nth-child(5) {
+  width: 24%;
+}
+
+.schedule th:nth-child(6),
+.schedule td:nth-child(6) {
+  width: 78px;
+}
+
+.schedule .ksrs {
+  text-align: center;
+  color: #9aa89a;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #f2f5f1 !important;
+  padding-left: 4px;
+  padding-right: 4px;
+  white-space: nowrap;
+}
+
+.anketa-form {
+  max-width: 460px;
+}
+
+.anketa-form input,
+.anketa-form select,
+.anketa-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 9px;
+  font: inherit;
+  border: 1px solid #b5c4b2;
+  border-radius: 5px;
+}
+
+.anketa-form input[type="radio"],
+.anketa-form input[type="checkbox"] {
+  width: auto;
+}
+
+.anketa-form fieldset {
+  border: 1px solid #b5c4b2;
+  border-radius: 5px;
+  margin: 12px 0;
+}
+
+.anketa-form small {
+  color: #5c6b5e;
+}
+
+.anketa-form input[type="submit"] {
+  width: auto;
+  padding: 9px 26px;
+  color: #fff;
+  background-color: #38714a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.anketa-form input[type="submit"]:hover {
+  background-color: #2a5738;
+}
+
+#site-footer {
+  background-color: #223c2b;
+  color: #cfdccb;
+  padding: 16px 0;
+  font-size: 14px;
+}
+
+#site-footer p {
+  margin: 4px 0;
+}
+
+#site-footer a {
+  color: #fff;
+}
