@@ -92,6 +92,16 @@ a:hover {
   color: #fff;
 }
 
+#main-menu a.nav-task-btn--next {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+#main-menu a.nav-task-btn--next:hover {
+  background-color: #1f618d;
+  color: #fff;
+}
+
 #content {
   padding-top: 28px;
   padding-bottom: 12px;

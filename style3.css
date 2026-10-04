@@ -139,6 +139,16 @@ a:hover {
   color: #fff;
 }
 
+#main-menu a.nav-task-btn--next {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+#main-menu a.nav-task-btn--next:hover {
+  background-color: #1f618d;
+  color: #fff;
+}
+
 /* --------------------------------------------------------------------------
    КОНТЕНТ (MAIN) — 100% ширины, Flex Box контейнер
    Пункт 3: В потоке HTML список ссылок (#links) предшествует таблице (#schedule).
