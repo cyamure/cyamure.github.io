@@ -5,15 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Задание 4</title>
-  <!-- Подключение фреймворка Bootstrap 5 -->
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Внешний файл стилей (разделение содержимого и представления) -->
+  
   <link rel="stylesheet" href="style4.css">
 </head>
 
 <body>
 
-  <!-- Шапка сайта на сетке Bootstrap -->
   <header id="site-header" class="py-3">
     <div class="container">
       <div class="row align-items-center gy-3">
@@ -26,9 +25,6 @@
         <div class="col-12 col-md-7">
           <nav id="main-menu">
             <ul class="nav nav-pills flex-column flex-md-row justify-content-center justify-content-md-end gap-2">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link btn-task-prev text-white">⬅ Задание 2</a>
-              </li>
               <li class="nav-item">
                 <a href="index3.html" class="nav-link btn-task-prev text-white">⬅ Задание 3</a>
               </li>
@@ -49,12 +45,9 @@
     </div>
   </header>
 
-  <!-- Основной контент: 12-колоночная сетка Mobile First с реорганизацией блоков через order -->
   <main id="content" class="container my-4">
     <div class="row gy-4">
 
-      <!-- Секция 1 в потоке HTML: Список ссылок.
-           Mobile First: на мобильных order-2 (ниже таблицы), на планшетах/десктопах order-md-1 (выше таблицы) -->
       <section id="links" class="col-12 order-2 order-md-1">
         <div class="card shadow-sm border-0 p-3 p-md-4">
           <h2 class="h4 text-success mb-3">Список гиперссылок</h2>
@@ -166,8 +159,6 @@
         </div>
       </section>
 
-      <!-- Секция 2 в потоке HTML: Таблица расписания.
-           Mobile First: на мобильных order-1 (выше ссылок), на планшетах/десктопах order-md-2 (ниже ссылок) -->
       <section id="schedule" class="col-12 order-1 order-md-2">
         <div class="card shadow-sm border-0 p-3 p-md-4">
           <h2 class="h4 text-success mb-3">Расписание ПИ22</h2>
@@ -248,7 +239,6 @@
         </div>
       </section>
 
-      <!-- Секция 3 в потоке HTML: Форма-анкета, выровненная по сетке Bootstrap -->
       <section id="anketa" class="col-12 order-3 order-md-3">
         <div class="card shadow-sm border-0 p-3 p-md-4">
           <h2 class="h4 text-success mb-2">Анкета</h2>
@@ -333,14 +323,12 @@
     </div>
   </main>
 
-  <!-- Подвал сайта на сетке Bootstrap -->
   <footer id="site-footer" class="py-3 mt-auto">
     <div class="container text-center text-md-start">
       <p class="mb-0">© Мирзоев Вадим</p>
     </div>
   </footer>
 
-  <!-- Bootstrap 5 JavaScript Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
