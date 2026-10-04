@@ -81,6 +81,17 @@ a:hover {
   background-color: #1d3f27;
 }
 
+#main-menu a.nav-task-btn {
+  background-color: #f39c12;
+  color: #1a2e1d;
+  font-weight: 700;
+}
+
+#main-menu a.nav-task-btn:hover {
+  background-color: #e67e22;
+  color: #fff;
+}
+
 #content {
   padding-top: 28px;
   padding-bottom: 12px;
